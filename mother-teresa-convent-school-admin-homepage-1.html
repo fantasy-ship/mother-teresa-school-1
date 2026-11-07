@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0a1f5c">
+<meta name="color-scheme" content="light dark">
+<title>Mother Teresa Convent School — Where Tomorrow's Leaders Begin.</title>
+<meta name="description" content="Mother Teresa Convent School (TM) official website: admissions, academics, notices, events and gallery.">
+<meta property="og:title" content="Mother Teresa Convent School">
+<meta property="og:description" content="Where Tomorrow's Leaders Begin.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230a1f5c'/%3E%3Ctext x='32' y='42' font-size='26' font-weight='800' text-anchor='middle' fill='%2300e5ff' font-family='Arial'%3ETM%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0a1f5c;--royal:#2145d8;--cyan:#00e5ff;--bg:#f4f7ff;--card:rgba(255,255,255,.75);--tx:#0b1533;--mu:#51608a;--bd:rgba(33,69,216,.15)}
+[data-theme=dark]{--bg:#060d26;--card:rgba(20,32,80,.6);--tx:#eaf0ff;--mu:#9fb0e0;--bd:rgba(0,229,255,.18)}
+*{box-sizing:border-box;margin:0}html{scroll-behavior:smooth}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--tx);line-height:1.6;transition:background .3s}
+a{color:inherit;text-decoration:none}
+#loader{position:fixed;inset:0;background:var(--navy);display:grid;place-items:center;z-index:99;transition:opacity .6s}
+#loader svg{width:110px;animation:pulse 1.2s infinite}@keyframes pulse{50%{transform:scale(1.12);filter:drop-shadow(0 0 20px var(--cyan))}}
+nav{position:sticky;top:0;z-index:50;display:flex;align-items:center;gap:12px;padding:10px 5%;background:var(--card);backdrop-filter:blur(14px);border-bottom:1px solid var(--bd)}
+nav .brand{display:flex;align-items:center;gap:10px;font-weight:700;color:var(--royal)}nav .brand svg{width:38px}
+[data-theme=dark] nav .brand{color:var(--cyan)}
+#menu{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap}
+#menu a{padding:6px 10px;border-radius:8px;font-size:.85rem;cursor:pointer}#menu a:hover,#menu a.on{background:var(--royal);color:#fff}
+#burger,#theme{background:none;border:1px solid var(--bd);color:var(--tx);border-radius:8px;padding:6px 10px;cursor:pointer;font-size:1rem}#burger{display:none}
+@media(max-width:1000px){#burger{display:block;margin-left:auto}#menu{display:none;position:absolute;top:100%;left:0;right:0;background:var(--bg);padding:12px 5%;flex-direction:column;margin:0}#menu.open{display:flex}}
+main section{display:none;padding:50px 5%;max-width:1200px;margin:auto;animation:in .5s}main section.on{display:block}@keyframes in{from{opacity:0;transform:translateY(16px)}}
+h1,h2{color:var(--navy)}[data-theme=dark] h1,[data-theme=dark] h2{color:#fff}h2{font-size:2rem;margin-bottom:14px}
+.hero{max-width:none!important;min-height:88vh;display:none;align-items:center;justify-content:center;text-align:center;position:relative;overflow:hidden;background:radial-gradient(circle at 20% 20%,#2145d8 0,transparent 45%),radial-gradient(circle at 80% 80%,#00a8c6 0,transparent 40%),var(--navy);color:#fff}
+.hero.on{display:flex}.hero h1{font-size:clamp(2rem,6vw,4rem);color:#fff;margin:14px 0}.hero p{max-width:640px;margin:auto;opacity:.9}
+.hero .logo{width:130px;animation:float 4s ease-in-out infinite}@keyframes float{50%{transform:translateY(-14px) rotateY(20deg)}}
+#bg{position:absolute;inset:0;width:100%;height:100%;z-index:0}.hero>div{z-index:1}
+.btn{display:inline-block;padding:12px 22px;border-radius:30px;border:0;font-weight:600;cursor:pointer;background:linear-gradient(135deg,var(--royal),var(--cyan));color:#fff;margin:6px;font-size:.95rem}.btn.o{background:none;border:2px solid #fff}.btn.s{padding:6px 12px;font-size:.8rem;margin:2px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:14px;margin:30px auto 0;max-width:700px}.stats b{font-size:2rem;color:var(--cyan);display:block}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.card{background:var(--card);backdrop-filter:blur(10px);border:1px solid var(--bd);border-radius:18px;padding:20px;box-shadow:0 10px 30px rgba(10,31,92,.08);transition:.3s}.card:hover{transform:translateY(-6px);box-shadow:0 18px 40px rgba(33,69,216,.25)}
+.card h3{color:var(--royal);margin-bottom:6px}[data-theme=dark] .card h3{color:var(--cyan)}.mu{color:var(--mu);font-size:.9rem}
+form{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}form .w{grid-column:1/-1}
+label{font-size:.8rem;font-weight:600;color:var(--mu);display:block}
+input,select,textarea{width:100%;padding:10px;border-radius:10px;border:1px solid var(--bd);background:var(--card);color:var(--tx);font:inherit}
+table{width:100%;border-collapse:collapse;font-size:.85rem}th,td{padding:8px;border-bottom:1px solid var(--bd);text-align:left}.tbl{overflow-x:auto}
+.tag{padding:2px 10px;border-radius:12px;font-size:.75rem;color:#fff;background:#888}.Pending{background:#e69a00}.Under\ Review{background:#2145d8}.Approved{background:#18a058}.Rejected{background:#d6334a}
+.pill{display:inline-block;padding:6px 14px;border:1px solid var(--bd);border-radius:20px;cursor:pointer;margin:3px}.pill.on{background:var(--royal);color:#fff}
+.ph{height:150px;border-radius:14px;background:linear-gradient(135deg,var(--navy),var(--royal));display:grid;place-items:center;color:var(--cyan);font-weight:700;cursor:pointer}
+#lb{position:fixed;inset:0;background:#000d;display:none;place-items:center;z-index:90;color:#fff;font-size:1.4rem}
+.note{background:rgba(255,193,7,.15);border-left:4px solid #e69a00;padding:10px 14px;border-radius:8px;margin:12px 0;font-size:.85rem}
+footer{background:var(--navy);color:#cfd9ff;text-align:center;padding:30px 5%;font-size:.9rem}
+.rv{opacity:0;transform:translateY(24px);transition:.7s}.rv.v{opacity:1;transform:none}
+@page{size:A4;margin:8mm}@media print{nav,footer,.np,h2.np{display:none!important}body{background:#fff}main section{padding:0}#rcpt{border:0;box-shadow:none;padding:0;background:#fff}#done>h2{display:none}}
+/* ===== FONTS: change only these 2 lines (and the Google Fonts <link> in <head>) =====
+ Options: 'Cormorant Garamond' | 'Poppins' | 'Montserrat' | 'Merriweather' | 'Lora' | 'DM Sans' | 'Nunito' */
+:root{--fh:'Playfair Display',Georgia,serif;--fb:'Inter',system-ui,sans-serif}
+/* ===== PREMIUM LAYER ===== */
+:root{--cs:#fff}[data-theme=dark]{--cs:#0c1a4a}
+::selection{background:var(--cyan);color:var(--navy)}
+body{font-family:var(--fb);background:radial-gradient(circle at 8% 0,rgba(33,69,216,.10),transparent 40%),radial-gradient(circle at 92% 55%,rgba(0,229,255,.09),transparent 40%),var(--bg);background-attachment:fixed}
+h1,h2,nav .brand span{font-family:var(--fh)}
+h2{font-size:clamp(1.8rem,4vw,2.6rem);position:relative;padding-bottom:14px;margin-bottom:24px;letter-spacing:.3px}
+h2:after{content:"";position:absolute;left:0;bottom:0;width:72px;height:3px;border-radius:3px;background:linear-gradient(90deg,var(--royal),var(--cyan))}
+#sp{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,var(--royal),var(--cyan));z-index:100;box-shadow:0 0 12px var(--cyan)}
+nav{padding:12px 5%;box-shadow:0 8px 30px rgba(10,31,92,.10)}nav .brand span{font-size:1.05rem;letter-spacing:.3px}nav .brand svg{filter:drop-shadow(0 4px 10px rgba(33,69,216,.45))}
+#menu a{position:relative;background:none!important;color:var(--tx);font-weight:500}#menu a:hover,#menu a.on{color:var(--royal)}[data-theme=dark] #menu a:hover,[data-theme=dark] #menu a.on{color:var(--cyan)}
+#menu a:after{content:"";position:absolute;left:10px;right:10px;bottom:1px;height:2px;border-radius:2px;background:var(--cyan);transform:scaleX(0);transition:.3s}#menu a.on:after,#menu a:hover:after{transform:scaleX(1)}
+.hero:after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at center,transparent 35%,rgba(3,10,40,.7));pointer-events:none}
+.hero h1{background:linear-gradient(180deg,#fff 30%,#8ee9ff);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;font-weight:800;line-height:1.1;filter:drop-shadow(0 6px 24px rgba(0,229,255,.35))}
+.hero>div>h2{display:inline-block;padding:8px 20px!important;margin:0;border:1px solid rgba(0,229,255,.4);border-radius:30px;background:rgba(255,255,255,.06);backdrop-filter:blur(8px);font-family:var(--fb);font-size:.74rem!important;letter-spacing:4px;color:var(--cyan)!important}.hero h2:after{display:none}
+.hero .logo{filter:drop-shadow(0 0 28px rgba(0,229,255,.65))}.hero p{font-size:1.05rem}
+.stats>div{background:rgba(255,255,255,.07);border:1px solid rgba(0,229,255,.25);border-radius:16px;padding:12px 6px;backdrop-filter:blur(8px)}
+.btn{position:relative;overflow:hidden;letter-spacing:.4px;box-shadow:0 8px 24px rgba(33,69,216,.4);transition:.3s}.btn:hover{transform:translateY(-3px);box-shadow:0 14px 34px rgba(0,229,255,.45)}
+.btn:before{content:"";position:absolute;top:0;left:-80%;width:50%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.5),transparent);transform:skewX(-20deg);transition:.7s}.btn:hover:before{left:130%}
+.btn.o{background:rgba(255,255,255,.08);backdrop-filter:blur(8px);box-shadow:none;border:1px solid rgba(255,255,255,.7)}
+.card{border:1px solid transparent;border-radius:20px;background:linear-gradient(var(--cs),var(--cs)) padding-box,linear-gradient(135deg,rgba(33,69,216,.4),rgba(0,229,255,.45)) border-box;box-shadow:0 12px 34px rgba(10,31,92,.10)}
+#sig .card>div:first-child{width:56px;height:56px;border-radius:16px;display:grid;place-items:center;background:linear-gradient(135deg,var(--royal),var(--cyan));font-size:1.6rem;margin-bottom:12px;box-shadow:0 10px 22px rgba(33,69,216,.4)}
+#sig .card h3{font-family:var(--fh)}
+input:focus,select:focus,textarea:focus{outline:0;border-color:var(--cyan);box-shadow:0 0 0 4px rgba(0,229,255,.18)}
+.ph{transition:.3s;position:relative;overflow:hidden}.ph:hover{transform:scale(1.04);box-shadow:0 14px 32px rgba(33,69,216,.45)}
+.pill{transition:.25s}.pill:hover{border-color:var(--cyan)}.pill.on{background:linear-gradient(135deg,var(--royal),var(--cyan));border-color:transparent}
+footer{background:linear-gradient(180deg,#0a1f5c,#050f33);border-top:2px solid var(--cyan);padding:40px 5%}footer b{font-family:var(--fh);font-size:1.2rem;color:#fff}
+
+/* ===== Enhanced accessibility and responsive polish ===== */
+.skip-link{position:fixed;left:12px;top:-60px;z-index:200;background:#fff;color:#0a1f5c;padding:10px 14px;border-radius:10px;font-weight:700}
+.skip-link:focus{top:12px}
+:focus-visible{outline:3px solid #00bfe0!important;outline-offset:3px}
+.welcome-strip{margin:0 0 28px;padding:14px 18px;border:1px solid var(--bd);border-radius:14px;background:linear-gradient(100deg,rgba(33,69,216,.10),rgba(0,229,255,.10));font-weight:600}
+.welcome-strip span{color:var(--royal);margin-right:8px}
+.consent{padding:12px 14px;border:1px solid var(--bd);border-radius:12px;background:var(--card)}
+.consent label{display:flex;align-items:flex-start;gap:10px;line-height:1.5}
+.consent input{width:auto;min-width:18px;margin-top:3px;accent-color:var(--royal)}
+input[type=file]{padding:9px;background:var(--card)}
+button:disabled,.btn:disabled{opacity:.55;cursor:not-allowed;transform:none}
+#menu a{white-space:nowrap}
+#track,#apply{scroll-margin-top:90px}
+#rcpt{overflow-wrap:anywhere}
+@media(max-width:700px){
+ nav{gap:7px;padding:10px 4%}
+ nav .brand span{font-size:.86rem;max-width:190px;line-height:1.15}
+ nav .brand svg{width:34px;flex:none}
+ #theme{padding:6px 8px}
+ main section{padding:34px 5%}
+ .hero{min-height:82vh}
+ .hero .logo{width:96px}
+ .hero>div{padding:14px!important}
+ .stats{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .grid{grid-template-columns:1fr}
+ form{grid-template-columns:1fr}
+ form .w{grid-column:1}
+ .btn{max-width:100%}
+}
+@media(prefers-reduced-motion:reduce){
+ *,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+ .rv{opacity:1;transform:none}
+}
+
+</style>
+</head>
+<body>
+<a class="skip-link" href="#home">Skip to main content</a>
+<div id="loader"><svg id="lg0" viewBox="0 0 64 64"></svg></div>
+<nav>
+ <a class="brand" onclick="go('home')"><svg class="lg" viewBox="0 0 64 64"></svg><span>Mother Teresa Convent School</span></a>
+ <div id="menu"></div>
+ <button id="theme" aria-label="Toggle theme">🌓</button><button id="burger" aria-label="Menu">☰</button>
+</nav>
+<main>
+<section id="home" class="hero on">
+ <canvas id="bg" aria-hidden="true"></canvas>
+ <div style="position:relative;padding:20px"><svg class="lg logo" viewBox="0 0 64 64"></svg>
+  <h2 style="color:var(--cyan);font-size:1rem;letter-spacing:3px">MOTHER TERESA CONVENT SCHOOL</h2>
+  <h1>Where Tomorrow's Leaders Begin.</h1>
+  <p>A nurturing, future-ready learning community that builds character, curiosity and confidence. [Add official school introduction here.]</p>
+  <div><a class="btn" onclick="go('about')">Explore Our School</a><a class="btn" onclick="go('apply')">Online Admission</a><a class="btn o" onclick="go('contact')">Contact Us</a></div>
+  <div class="stats"><div><b data-n="25">0</b>Years*</div><div><b data-n="1200">0</b>Students*</div><div><b data-n="60">0</b>Teachers*</div><div><b data-n="100">0</b>% Dedication*</div></div>
+  <p class="mu" style="color:#9fb0e0;font-size:.75rem;margin-top:8px">*Placeholder numbers — replace with real school data.</p></div>
+</section>
+<section id="home2" class="on" style="max-width:1200px"><div class="welcome-strip"><span>✦</span> Discover learning, creativity and character at Mother Teresa Convent School.</div><h2>TM Signature Experiences</h2><div class="grid" id="sig"></div>
+<div id="admin-panel" class="card" style="margin:34px 0 12px;scroll-margin-top:90px">
+ <h2>TM Admin Panel</h2>
+ <p class="mu" style="margin:-8px 0 14px">Authorized school staff can sign in to review admission applications and manage notices and events.</p>
+ <div id="adm"></div>
+</div></section>
+
+<section id="about"><h2>About Us</h2><p>Mother Teresa Convent School is committed to academic excellence, compassion and discipline. [Replace with the school's real history, board affiliation and facilities.]</p>
+ <h2 style="margin-top:30px">TM Timeline</h2><div class="grid" id="tl"></div></section>
+<section id="principal"><h2>Principal's Message</h2><div class="card"><p>[Principal's message placeholder. Add the official message, name and photograph provided by the school.]</p><p class="mu" style="margin-top:10px">— Principal, Mother Teresa Convent School</p></div></section>
+<section id="vision"><h2>Our Vision & Mission</h2><div class="grid"><div class="card"><h3>Vision</h3><p>To nurture confident, compassionate leaders of tomorrow.</p></div><div class="card"><h3>Mission</h3><p>To provide quality education with values, creativity and innovation. [Edit with official statement.]</p></div></div></section>
+<section id="academics"><h2>Academics</h2><div class="grid"><div class="card"><h3>Pre-Primary</h3><p class="mu">[Details]</p></div><div class="card"><h3>Primary</h3><p class="mu">[Details]</p></div><div class="card"><h3>Middle School</h3><p class="mu">[Details]</p></div><div class="card"><h3>Secondary</h3><p class="mu">[Details]</p></div></div>
+ <h2 style="margin-top:30px">TM Future Lab</h2><div class="card"><p>Science, technology, creativity and innovation showcase. [Add real lab details and projects.]</p></div></section>
+<section id="admissions"><h2>Admissions</h2><div class="card"><p>Apply online in minutes and track your application status anytime.</p><ol style="margin:10px 20px"><li>Fill the online application</li><li>Receive your Application ID</li><li>Track status with ID + mobile number</li></ol><a class="btn" onclick="go('apply')">Apply Now</a><a class="btn" onclick="go('track')">Track Application</a></div></section>
+
+<section id="apply"><h2>TM Online Application</h2>
+ <form id="af"><div><label>Student full name*</label><input name="name" required minlength="3"></div><div><label>Date of birth*</label><input type="date" name="dob" id="dob" required></div>
+ <div><label>Gender*</label><select name="gender" required><option value="">Select</option><option>Male</option><option>Female</option><option>Other</option></select></div>
+ <div><label>Class applying for*</label><select name="cls" required id="cls"></select></div>
+ <div><label>Father's name*</label><input name="father" required></div><div><label>Mother's name*</label><input name="mother" required></div>
+ <div><label>Parent mobile*</label><input name="mobile" required pattern="[0-9]{10}" maxlength="10" minlength="10" inputmode="numeric" autocomplete="tel" placeholder="10 digits"></div><div><label>Email*</label><input type="email" name="email" required></div>
+ <div class="w"><label>Residential address*</label><textarea name="addr" required rows="2"></textarea></div><div class="w"><label>Previous school details</label><textarea name="prev" rows="2"></textarea></div>
+ <div><label>Student photograph</label><input type="file" name="photo" accept=".jpg,.jpeg,.png,.webp,image/jpeg,image/png,image/webp"></div><div><label>Required documents</label><input type="file" name="docs" multiple accept=".pdf,.jpg,.jpeg,.png,.webp,application/pdf,image/jpeg,image/png,image/webp"></div>
+ <div class="w consent"><label><input type="checkbox" name="consent" required> I confirm that the information provided is accurate and agree that the school may contact me about this application.</label></div><div class="w"><button class="btn">Submit Application</button></div></form>
+ <div class="note">PREVIEW ONLY: application details are stored in this browser on this device. Selected files are validated, but the files themselves are NOT uploaded or saved. This demo is not a live admission service. Before publishing, connect a secure server, database and private file storage; add a privacy notice and authorized server-side admin login.</div></section>
+<section id="done"><h2>Application Submitted ✅</h2><div class="card" id="rcpt"></div><p id="ms" class="np" style="margin:10px 0"></p><div class="np"><button class="btn" onclick="print()">Download Receipt (PDF)</button><a class="btn" onclick="go('track')">Track Status</a></div></section>
+<section id="track"><h2>Track Application</h2><form id="tf"><div><label>Application ID</label><input name="id" required placeholder="TM-2026-0001"></div><div><label>Registered mobile</label><input name="mobile" required pattern="[0-9]{10}" maxlength="10" inputmode="numeric" placeholder="Registered 10-digit mobile"></div><div class="w"><button class="btn">Check Status</button></div></form><div id="tr" style="margin-top:16px"></div></section>
+
+<section id="faculty"><h2>Faculty & Staff</h2><div class="grid" id="fac"></div><div class="note">Placeholder profiles. Admin can manage real faculty in the full backend version.</div></section>
+<section id="life"><h2>TM Student Universe</h2><div class="grid"><div class="card"><h3>Sports</h3><p class="mu">[Add details]</p></div><div class="card"><h3>Arts & Culture</h3><p class="mu">[Add details]</p></div><div class="card"><h3>Clubs</h3><p class="mu">[Add details]</p></div><div class="card"><h3>TM Smart Campus / Virtual Tour</h3><p class="mu">Interactive campus map and 360° tour — add real campus images to enable.</p></div></div></section>
+<section id="achievements"><h2>TM Achievement Wall</h2><div class="grid"><div class="card"><h3>🏅 Academic</h3><p class="mu">Add real achievements</p></div><div class="card"><h3>⚽ Sports</h3><p class="mu">Add real achievements</p></div><div class="card"><h3>🎭 Cultural</h3><p class="mu">Add real achievements</p></div><div class="card"><h3>📜 Certificates</h3><p class="mu">Add real achievements</p></div></div></section>
+<section id="gallery"><h2>TM Gallery 360</h2><div id="gf"></div><div class="grid" id="gg" style="margin-top:14px"></div><p class="mu">Placeholders — replace with authentic school photographs.</p></section>
+<section id="events"><h2>TM Event Orbit</h2><div class="grid" id="ev"></div></section>
+<section id="notices"><h2>TM Notice Hub</h2><div id="nt"></div></section>
+<section id="contact"><h2>Contact Us</h2><div class="grid"><div class="card"><h3>Mother Teresa Convent School</h3><p class="mu">Address: [School address placeholder]<br>Phone: [Contact number placeholder]<br>Email: [Official email placeholder]</p><p>Social: Facebook · Instagram · YouTube [add links]</p><div class="ph" style="margin-top:10px;height:110px">Google Maps embed here</div></div>
+<form class="card" id="cf" style="display:block"><h3>Enquiry / Contact Form</h3><label>Name</label><input name="n" required><label>Mobile / Email</label><input name="c" required><label>Message</label><textarea name="m" rows="3" required></textarea><button class="btn">Send</button></form></div></section>
+
+
+</main>
+<div id="lb" onclick="this.style.display='none'"></div>
+<footer><b>Mother Teresa Convent School</b> · Where Tomorrow's Leaders Begin.<br>© 2026 TM · <a onclick="go('admin')" style="cursor:pointer">Admin</a></footer>
+
+<script>
+const LG='<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2145d8"/><stop offset="1" stop-color="#0a1f5c"/></linearGradient></defs><rect width="64" height="64" rx="16" fill="url(#g)" stroke="#00e5ff" stroke-width="2"/><text x="32" y="43" font-size="26" font-weight="800" text-anchor="middle" fill="#00e5ff" font-family="Arial">TM</text>';
+document.querySelectorAll('svg.lg,#lg0').forEach(s=>s.innerHTML=LG);
+const $=s=>document.querySelector(s),LS=(k,d)=>{try{return JSON.parse(localStorage.getItem(k))||d}catch(e){return d}},SV=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}};
+const pages=[['home','Home'],['about','About'],['principal','Principal'],['vision','Vision'],['academics','Academics'],['admissions','Admissions'],['apply','Apply Online'],['track','Track Status'],['faculty','Faculty'],['life','Student Life'],['achievements','Achievements'],['gallery','Gallery'],['events','Events'],['notices','Notices'],['contact','Contact']];
+$('#menu').innerHTML=pages.map(p=>`<a data-p="${p[0]}" onclick="go('${p[0]}')">${p[1]}</a>`).join('');
+function go(p){const target=p=='admin'?'home':p;document.querySelectorAll('main section').forEach(s=>s.classList.remove('on'));$('#'+target).classList.add('on');if(target=='home')$('#home2').classList.add('on');
+ document.querySelectorAll('#menu a').forEach(a=>a.classList.toggle('on',a.dataset.p==target));$('#menu').classList.remove('open');location.hash=p;if(p=='admin'){adminView();setTimeout(()=>$('#admin-panel').scrollIntoView({behavior:'smooth',block:'start'}),60)}else{scrollTo(0,0)}if(p=='notices')nots();if(p=='events')evs();if(p=='home')counters();rv()}
+$('#burger').onclick=()=>$('#menu').classList.toggle('open');
+$('#theme').onclick=()=>{const d=document.documentElement;const n=d.dataset.theme=='dark'?'':'dark';d.dataset.theme=n;SV('tm_theme',n)};
+document.documentElement.dataset.theme=LS('tm_theme','');
+addEventListener('load',()=>setTimeout(()=>{$('#loader').style.opacity=0;setTimeout(()=>$('#loader').remove(),600);counters()},700));
+function counters(){document.querySelectorAll('[data-n]').forEach(e=>{const t=+e.dataset.n;let c=0;const i=setInterval(()=>{c+=Math.ceil(t/40);if(c>=t){c=t;clearInterval(i)}e.textContent=c+(t>=1000?'+':'')},30)})}
+function rv(){const o=new IntersectionObserver(es=>es.forEach(e=>e.isIntersecting&&e.target.classList.add('v')),{threshold:.1});document.querySelectorAll('.card:not(.v)').forEach(c=>{c.classList.add('rv');o.observe(c)})}
+const sig=[['🗺️','TM Smart Campus','Interactive digital campus map','contact'],['🌌','TM Student Universe','Achievements & activities','life'],['🔬','TM Future Lab','Science, tech & innovation','academics'],['⏳','TM Timeline','School milestones','about'],['🖼️','TM Gallery 360','Immersive campus gallery','gallery'],['🏆','TM Achievement Wall','Awards & certificates','achievements'],['📢','TM Notice Hub','Announcements & notices','notices'],['👪','TM Parent Connect','Track admissions, contact school','track'],['🪐','TM Event Orbit','Upcoming events','events'],['🎓','TM Virtual Tour','Explore the campus','life']];
+$('#sig').innerHTML=sig.map(s=>`<div class="card" onclick="go('${s[3]}')" style="cursor:pointer"><div style="font-size:2rem">${s[0]}</div><h3>${s[1]}</h3><p class="mu">${s[2]}</p></div>`).join('');
+$('#tl').innerHTML=['Foundation','Growth','Milestone','Today'].map((t,i)=>`<div class="card"><h3>${t}</h3><p class="mu">[Year & real milestone ${i+1}]</p></div>`).join('');
+$('#fac').innerHTML=['Faculty Member 1','Faculty Member 2','Faculty Member 3'].map(n=>`<div class="card"><div class="ph" style="height:90px">TM</div><h3 style="margin-top:8px">${n}</h3><p class="mu">[Designation / Subject]</p></div>`).join('');
+const dobInput=$('#dob');if(dobInput)dobInput.max=new Date().toISOString().slice(0,10);
+const classes=['Nursery','LKG','UKG','1','2','3','4','5','6','7','8','9','10','11','12'];$('#cls').innerHTML='<option value="">Select</option>'+classes.map(c=>`<option>${isNaN(c)?c:'Class '+c}</option>`).join('');
+const cats=['All','School Campus','Classrooms','Science Laboratory','Library','Sports','Cultural Activities','Events','Celebrations'];
+function gal(c='All'){$('#gf').innerHTML=cats.map(x=>`<span class="pill ${x==c?'on':''}" onclick="gal('${x}')">${x}</span>`).join('');
+ $('#gg').innerHTML=cats.slice(1).filter(x=>c=='All'||x==c).flatMap(x=>[1,2]).length?cats.slice(1).filter(x=>c=='All'||x==c).map(x=>`<div class="ph" onclick="lbx('${x}')">${x}<br>📷</div>`).join(''):''}
+function lbx(t){const l=$('#lb');l.innerHTML='📷 '+t+' (placeholder — click to close)';l.style.display='grid'}gal();
+const dN=[{t:'Admission open for new session',c:'Admission',d:'[Date]'},{t:'Examination schedule announcement',c:'Exam',d:'[Date]'},{t:'Holiday notification',c:'Holiday',d:'[Date]'}],dE=[{t:'Annual Function',d:'[Date TBA]'},{t:'Sports Day',d:'[Date TBA]'},{t:'Science Exhibition',d:'[Date TBA]'},{t:'Independence Day',d:'15 Aug'},{t:'Republic Day',d:'26 Jan'}];
+function nots(){$('#nt').innerHTML=LS('tm_n',dN).map(n=>`<div class="card" style="margin-bottom:10px"><span class="tag">${n.c}</span> <b>${n.t}</b> <span class="mu">${n.d}</span></div>`).join('')}
+function evs(){$('#ev').innerHTML=LS('tm_e',dE).map(n=>`<div class="card"><h3>${n.t}</h3><p class="mu">📅 ${n.d}</p></div>`).join('')}nots();evs();
+// Admission
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+$('#af').onsubmit=e=>{e.preventDefault();const f=new FormData(e.target),a=LS('tm_a',[]),o={};
+ f.forEach((v,k)=>{if(!(v instanceof File))o[k]=String(v).trim()});
+ const photoFile=$('#af [name=photo]').files[0],docFiles=[...$('#af [name=docs]').files];
+ const allowed=['application/pdf','image/jpeg','image/png','image/webp'];
+ const allFiles=[...(photoFile?[photoFile]:[]),...docFiles];
+ if(allFiles.some(file=>!allowed.includes(file.type)))return alert('Upload only PDF, JPG, PNG or WEBP files.');
+ if(allFiles.some(file=>file.size>5*1024*1024))return alert('Each uploaded file must be 5 MB or smaller.');
+ if(!/^\d{10}$/.test(o.mobile))return alert('Enter valid 10-digit mobile');
+ o.photo=photoFile?photoFile.name:'';
+ o.docs=docFiles.map(file=>file.name).join(', ');
+ o.id='TM-'+new Date().getFullYear()+'-'+Date.now().toString().slice(-6)+'-'+Math.random().toString(36).slice(2,6).toUpperCase();o.status='Pending';o.remark='';o.date=new Date().toLocaleDateString();a.push(o);SV('tm_a',a);e.target.reset();
+ $('#rcpt').innerHTML=`<h3>Application ID: ${o.id}</h3><p>Student: ${esc(o.name)} · Class: ${esc(o.cls)}<br>Parent mobile: ${esc(o.mobile)}<br>Status: ${o.status} · Date: ${o.date}</p><p class="mu">Keep this ID to track your application. Mother Teresa Convent School — acknowledgement receipt.</p>`;$('#rcpt').innerHTML=a4(o);mail(o);go('done')};
+$('#tf').onsubmit=e=>{e.preventDefault();const f=Object.fromEntries(new FormData(e.target)),a=LS('tm_a',[]).find(x=>x.id==f.id.trim().toUpperCase()&&x.mobile==f.mobile.trim());
+ $('#tr').innerHTML=a?`<div class="card"><h3>${esc(a.id)} — ${esc(a.name)}</h3><p>Status: <span class="tag ${a.status}">${a.status}</span></p><p class="mu">Remarks: ${esc(a.remark)||'None'}</p></div>`:'<div class="note">No application found. Check ID and mobile number.</div>'};
+$('#cf').onsubmit=e=>{e.preventDefault();const q=LS('tm_q',[]);q.push(Object.fromEntries(new FormData(e.target)));SV('tm_q',q);e.target.reset();alert('Thank you! We will contact you soon.')};
+// ===== EMAIL SETTINGS (EmailJS.com): fill these 4 values =====
+const MAIL={service:'',template:'',key:'',to:''}; // service_id, template_id, public key, your email
+function a4(o){const r=(k,v)=>`<tr><td style="padding:9px 10px;border:1px solid #cfd8f5;background:#f1f5ff;width:34%;font-weight:bold">${k}</td><td style="padding:9px 10px;border:1px solid #cfd8f5">${esc(v||'-')}</td></tr>`;
+return `<div style="width:794px;max-width:100%;margin:auto;font-family:Arial,sans-serif;color:#0b1533;border:2px solid #0a1f5c;background:#fff;box-sizing:border-box"><table style="width:100%;background:#0a1f5c;color:#fff"><tr><td style="width:84px;padding:14px"><div style="width:62px;height:62px;border-radius:14px;background:#2145d8;border:2px solid #00e5ff;color:#00e5ff;font:bold 24px/62px Arial;text-align:center">TM</div></td><td><div style="font-size:22px;font-weight:bold">MOTHER TERESA CONVENT SCHOOL</div><div style="color:#00e5ff;font-size:13px">Where Tomorrow's Leaders Begin.</div></td></tr></table>
+<div style="padding:18px"><h2 style="text-align:center;margin:0 0 4px;color:#0a1f5c">ADMISSION APPLICATION FORM</h2><p style="text-align:center;margin:0 0 14px;font-size:13px">Application ID: <b>${o.id}</b> &nbsp;|&nbsp; Date: ${o.date} &nbsp;|&nbsp; Status: <b>${o.status}</b></p>
+<table style="width:100%;border-collapse:collapse;font-size:14px">${r('Student Name',o.name)}${r('Date of Birth',o.dob)}${r('Gender',o.gender)}${r('Class Applying For',o.cls)}${r("Father's Name",o.father)}${r("Mother's Name",o.mother)}${r('Parent Mobile',o.mobile)}${r('Email',o.email)}${r('Residential Address',o.addr)}${r('Previous School',o.prev)}${r('Photograph (file)',o.photo)}${r('Documents (files)',o.docs)}</table>
+<table style="width:100%;margin-top:50px;font-size:13px"><tr><td>Parent Signature: ____________</td><td style="text-align:right">Principal / Office Seal: ____________</td></tr></table>
+<p style="font-size:11px;color:#51608a;text-align:center;margin-top:20px">Computer-generated acknowledgement — Mother Teresa Convent School</p></div></div>`}
+async function mail(o){const m=$('#ms');if(!MAIL.key||!MAIL.to){m.innerHTML='<div class="note">Email not configured yet — fill MAIL settings in the code.</div>';return}
+m.textContent='Sending application to school email...';
+try{const r=await fetch('https://api.emailjs.com/api/v1.0/email/send',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({service_id:MAIL.service,template_id:MAIL.template,user_id:MAIL.key,template_params:{to_email:MAIL.to,subject:'New Admission Application '+o.id+' - '+o.name,message_html:a4(o)}})});m.textContent=r.ok?'✅ Application emailed to school.':'⚠️ Email failed ('+r.status+'). Application is saved.'}catch(e){m.textContent='⚠️ Email failed. Application is saved.'}}
+// Admin (DEMO login only — real version needs server-side auth)
+let AUTH=false;
+function adminView(){const A=$('#adm');if(!AUTH){A.innerHTML=`<form id="lf"><div><label>Admin password</label><input type="password" id="pw"></div><div class="w"><button class="btn">Login</button></div></form><div class="note">Preview admin access only: demo password is <b>admin123</b>. This password is visible in the page source and is NOT secure. Never publish this demo admin login or collect real student information until server-side authentication and access controls are implemented.</div>`;$('#lf').onsubmit=e=>{e.preventDefault();if($('#pw').value=='admin123'){AUTH=true;adminView()}else alert('Wrong password')};return}
+ const a=LS('tm_a',[]),c=s=>a.filter(x=>x.status==s).length,q=($('#sq')||{}).value||'',fc=($('#fc')||{}).value||'',fs=($('#fs')||{}).value||'';
+ const l=a.filter(x=>(x.name+x.id).toLowerCase().includes(q.toLowerCase())&&(!fc||x.cls==fc)&&(!fs||x.status==fs));
+ A.innerHTML=`<div class="grid"><div class="card"><h3>${a.length}</h3>Total</div><div class="card"><h3>${c('Pending')}</h3>Pending</div><div class="card"><h3>${c('Approved')}</h3>Approved</div><div class="card"><h3>${c('Rejected')}</h3>Rejected</div></div>
+ <div class="grid" style="margin:16px 0"><input id="sq" placeholder="Search name / ID" value="${esc(q)}" oninput="adminView();$('#sq').focus()"><select id="fc" onchange="adminView()"><option value="">All classes</option>${[...new Set(a.map(x=>x.cls))].map(x=>`<option ${x==fc?'selected':''}>${x}</option>`).join('')}</select><select id="fs" onchange="adminView()"><option value="">All status</option>${['Pending','Under Review','Approved','Rejected'].map(x=>`<option ${x==fs?'selected':''}>${x}</option>`).join('')}</select></div>
+ <button class="btn s" onclick="exp()">Export Applications (CSV)</button><button class="btn s" onclick="addN()">+ Notice</button><button class="btn s" onclick="addE()">+ Event</button><button class="btn s" onclick="AUTH=false;adminView()">Logout</button>
+ <div class="tbl card" style="margin-top:12px"><table><tr><th>ID</th><th>Name</th><th>Class</th><th>Mobile</th><th>Status</th><th>Remark</th></tr>${l.map(x=>`<tr><td>${x.id}</td><td>${esc(x.name)}<br><span class="mu">${esc(x.photo||'')} ${esc(x.docs||'')}</span></td><td>${esc(x.cls)}</td><td>${esc(x.mobile)}</td><td><select onchange="upd('${x.id}','status',this.value)">${['Pending','Under Review','Approved','Rejected'].map(s=>`<option ${s==x.status?'selected':''}>${s}</option>`).join('')}</select></td><td><input value="${esc(x.remark)}" onchange="upd('${x.id}','remark',this.value)"></td></tr>`).join('')||'<tr><td colspan=6>No applications</td></tr>'}</table></div>`}
+function upd(id,k,v){const a=LS('tm_a',[]);a.find(x=>x.id==id)[k]=v;SV('tm_a',a);adminView()}
+function exp(){const a=LS('tm_a',[]);if(!a.length)return alert('No data');const k=Object.keys(a[0]);const csv=[k.join(',')].concat(a.map(r=>k.map(h=>'"'+String(r[h]||'').replace(/"/g,'""')+'"').join(','))).join('\n');const u=URL.createObjectURL(new Blob([csv],{type:'text/csv'})),l=document.createElement('a');l.href=u;l.download='tm_applications.csv';l.click()}
+function addN(){const t=prompt('Notice title');if(!t)return;const n=LS('tm_n',dN);n.unshift({t,c:'Notice',d:new Date().toLocaleDateString()});SV('tm_n',n);nots();alert('Published')}
+function addE(){const t=prompt('Event title');if(!t)return;const d=prompt('Date')||'TBA',e=LS('tm_e',dE);e.push({t,d});SV('tm_e',e);evs();alert('Added')}
+adminView();
+// ===== TM Orbit: 3D rotating knowledge-globe with orbit rings, stars & mouse tilt =====
+(function(){const c=$('#bg'),x=c.getContext('2d'),P=[],N=170,G=Math.PI*(3-Math.sqrt(5)),rm=matchMedia('(prefers-reduced-motion:reduce)').matches;let W=0,H=0,mx=0,my=0,t=0;
+for(let i=0;i<N;i++){const y=1-2*i/(N-1),r=Math.sqrt(1-y*y);P.push([Math.cos(G*i)*r,y,Math.sin(G*i)*r])}
+const S=[...Array(90)].map(()=>[Math.random(),Math.random(),Math.random()*1.5+.3,Math.random()]);
+function rs(){const d=devicePixelRatio||1;W=c.clientWidth;H=c.clientHeight;c.width=W*d;c.height=H*d;x.setTransform(d,0,0,d,0,0)}
+$('#home').addEventListener('pointermove',e=>{mx=e.clientX/innerWidth-.5;my=e.clientY/innerHeight-.5});
+function pr(p,a,b,R){const X=p[0]*Math.cos(a)+p[2]*Math.sin(a);let Z=-p[0]*Math.sin(a)+p[2]*Math.cos(a);const Y=p[1]*Math.cos(b)-Z*Math.sin(b);Z=p[1]*Math.sin(b)+Z*Math.cos(b);const f=1/(1.6-Z*.5);return[W/2+X*R*f,H/2+Y*R*f,Z,f]}
+function draw(){if(!c.offsetParent){setTimeout(draw,300);return}
+ if(W!=c.clientWidth||H!=c.clientHeight)rs();t+=.004;x.clearRect(0,0,W,H);
+ const R=Math.min(W,H)*.42,a=t+mx*1.2,b=.35+my*.6;
+ S.forEach(s=>{x.fillStyle=`rgba(160,230,255,${.2+.5*Math.abs(Math.sin(t*3+s[3]*9))})`;x.fillRect((s[0]*W+t*s[2]*40)%W,s[1]*H,s[2],s[2])});
+ const Q=P.map(p=>pr(p,a,b,R));x.lineWidth=.6;
+ for(let i=0;i<N;i++)for(let j=i+1;j<N;j++){const dx=P[i][0]-P[j][0],dy=P[i][1]-P[j][1],dz=P[i][2]-P[j][2];if(dx*dx+dy*dy+dz*dz<.16){x.strokeStyle=`rgba(0,229,255,${.1+.25*(Q[i][2]+1)/2})`;x.beginPath();x.moveTo(Q[i][0],Q[i][1]);x.lineTo(Q[j][0],Q[j][1]);x.stroke()}}
+ Q.forEach(q=>{x.fillStyle=`rgba(0,229,255,${.35+.6*(q[2]+1)/2})`;x.beginPath();x.arc(q[0],q[1],1+q[3]*1.4,0,7);x.fill()});
+ [[1.35,.5,1],[1.55,-.4,-1.4]].forEach((o,k)=>{x.strokeStyle='rgba(120,160,255,.35)';x.beginPath();for(let i=0;i<=64;i++){const u=i/64*6.2832,p=pr([Math.cos(u)*o[0],0,Math.sin(u)*o[0]],a*.3,b+o[1],R);i?x.lineTo(p[0],p[1]):x.moveTo(p[0],p[1])}x.stroke();
+  const u=t*o[2]*3,p=pr([Math.cos(u)*o[0],0,Math.sin(u)*o[0]],a*.3,b+o[1],R);x.fillStyle=k?'#fff':'#00e5ff';x.shadowBlur=18;x.shadowColor='#00e5ff';x.beginPath();x.arc(p[0],p[1],5,0,7);x.fill();x.shadowBlur=0});
+ if(!rm)requestAnimationFrame(draw)}
+draw()})();
+(()=>{const s=document.createElement('div');s.id='sp';document.body.prepend(s);addEventListener('scroll',()=>{s.style.width=scrollY/Math.max(1,document.body.scrollHeight-innerHeight)*100+'%'})})();
+const h=location.hash.slice(1);if(h&&document.getElementById(h))go(h);rv();
+</script>
+</body>
+</html>
